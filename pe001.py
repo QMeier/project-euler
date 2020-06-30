@@ -1,5 +1,5 @@
 #
-# Project Euler: https://projecteuler.net/
+# Project Euler: https://projecteuler.net/problem=1
 #
 # If we list all the natural numbers below 10 that are multiples of 3 or 5,
 # we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -7,7 +7,7 @@
 # (Solution: 233168)
 #
 def solve():
-    tot = sum(x for x in range(1000) if not (x % 3 and x % 5))
-    return tot
+    soln = sum(x for x in range(1000) if not (x % 3 and x % 5))
+    return soln
 
 print(solve())
